@@ -1,0 +1,97 @@
+html{	
+	background: gray;
+}
+
+body{ 
+	color: white;
+}
+
+.centrar{
+	margin: 0 auto;
+	width: 1020px;
+	background: white;
+}
+
+.logo{
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+nav{
+	vertical-align: top;
+	list-style: none;
+	width: 100%;
+	background: #585858;
+}
+
+nav li{	
+	width: 15%;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+nav li:hover{
+	background: red;
+	cursor: pointer;
+}
+
+nav li a{
+	display: block;
+	padding:  15px 0;
+	text-align: center;
+}
+
+.noticias{
+	background: white;
+	width: 74%;
+	display: inline-block;
+}
+
+article{
+	background: gray;
+	width: 40%;
+	height: 100px;
+	margin-left: 15px;
+	display: inline-block;
+}
+
+aside{
+	background: white;
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+aside .banner{
+	width: 90%;
+	height: 60px;
+	background: orange;
+	margin-bottom: 10px;
+}
+
+
+footer{ 
+	background: #383838;
+}
+
+.cp{
+	width: 49%;
+	margin-left: 15px;
+	display: inline-block;
+}
+
+.tw{
+	text-align: right;
+	width: 49%;
+	display: inline-block;
+}
+
+.tw a{
+	margin-right: 15px;
+	text-decoration: none;
+	color: cyan;
+}
